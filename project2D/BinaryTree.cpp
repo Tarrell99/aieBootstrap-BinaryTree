@@ -15,7 +15,11 @@ bool BinaryTree::isEmpty() const
 
 void BinaryTree::insert(int a_nValue)
 {
-
+	if (m_pRoot = nullptr)
+	{
+		// do something
+	}
+	else if (m_pRoot < a_nValue)
 }
 
 void BinaryTree::remove(int a_nValue)
