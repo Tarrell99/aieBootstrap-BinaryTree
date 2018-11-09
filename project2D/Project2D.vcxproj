@@ -169,7 +169,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application2D.h" />
-    <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="TreeApplication.cpp" />
+    <ClInclude Include="TreeApplication.h" />
     <ClInclude Include="TreeNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

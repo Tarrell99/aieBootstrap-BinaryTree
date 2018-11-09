@@ -10,25 +10,70 @@ BinaryTree::~BinaryTree()
 
 bool BinaryTree::isEmpty() const
 {
-	return false;
+	if (m_pRoot == nullptr)
+	return true;
+
+	else
+	{
+		return false;
+	}
 }
 
 void BinaryTree::insert(int a_nValue)
 {
-	if (m_pRoot = nullptr)
+	if (m_pRoot == nullptr)
 	{
-		// do something
+		// the root shoud get the value
+		m_pRoot == a_nValue;
 	}
 	else if (m_pRoot < a_nValue)
+	{
+		// move to the right
+	}
+	else if(m_pRoot > a_nValue)
+	{
+		// move to the left
+	}
 }
 
 void BinaryTree::remove(int a_nValue)
 {
+	int* wheartheNumer;
+
+	while (a_nValue != wheartheNumer )
+	{
+		if (wheartheNumer > a_nValue)
+		{
+			// move to the right
+		}
+		if (wheartheNumer < a_nValue)
+		{
+			// move to left
+		}
+		else
+		{
+			delete wheartheNumer-> /*whats its pointing to*/;
+		}
+	}
 }
 
 TreeNode * BinaryTree::find(int a_nValue)
 {
-	return nullptr;
+	int* wheartheNumer;
+
+	while (a_nValue != wheartheNumer)
+	{
+		if (wheartheNumer > a_nValue)
+		{
+			// move to the right
+		}
+		if (wheartheNumer < a_nValue)
+		{
+			// move to left
+		}
+	}
+
+	return wheartheNumer-> /*whats iys pointing to*/;
 }
 
 void BinaryTree::draw(aie::Renderer2D * renderer, TreeNode * selected)
@@ -38,7 +83,8 @@ void BinaryTree::draw(aie::Renderer2D * renderer, TreeNode * selected)
 
 bool BinaryTree::findNode(int a_nSearchValue, TreeNode ** ppOutNode, TreeNode ** ppOutParent)
 {
-	return false;
+	
+		return false;
 }
 
 void BinaryTree::draw(aie::Renderer2D * renderer, TreeNode * pNode, int x, int y, 
