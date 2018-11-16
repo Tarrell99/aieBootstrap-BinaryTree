@@ -39,6 +39,14 @@ void BinaryTree::insert(int a_nValue)
 
 void BinaryTree::remove(int a_nValue)
 {
+	BinaryTree* pointer1;
+	BinaryTree* pointer2;
+	BinaryTree* pointer3;
+	BinaryTree* pointer4;
+	BinaryTree* pointer5;
+	BinaryTree* pointer6;
+
+
 
 }
 
