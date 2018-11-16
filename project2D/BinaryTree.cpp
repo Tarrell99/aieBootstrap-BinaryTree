@@ -21,7 +21,20 @@ bool BinaryTree::isEmpty() const
 
 void BinaryTree::insert(int a_nValue)
 {
-	
+	if (m_pRoot->getData == m_pRoot)
+	{
+		m_pRoot == nullptr;
+	}
+
+	if (m_pRoot->getData < m_pRoot)
+	{
+		m_pRoot->setLeft;
+	}
+
+	if (m_pRoot->getData > m_pRoot)
+	{
+		m_pRoot->setRight;
+	}
 }
 
 void BinaryTree::remove(int a_nValue)
