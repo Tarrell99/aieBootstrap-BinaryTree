@@ -162,13 +162,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Application2D.cpp" />
     <ClCompile Include="BinaryTree.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TreeNode.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Application2D.h" />
+    <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="TreeApplication.cpp" />
     <ClInclude Include="TreeApplication.h" />
     <ClInclude Include="TreeNode.h" />

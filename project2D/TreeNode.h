@@ -1,6 +1,11 @@
 #pragma once
-#include<iostream>
-#include"Renderer2D.h"
+
+
+namespace aie
+{
+	class Renderer2D;
+}
+
 class TreeNode
 {
 public:

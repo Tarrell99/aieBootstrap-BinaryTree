@@ -2,8 +2,6 @@
 
 #include "Application.h"
 #include "Renderer2D.h"
-#include"BinaryTree.h"
-#include"TreeNode.h"
 class Application2D : public aie::Application {
 public:
 

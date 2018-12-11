@@ -1,7 +1,6 @@
-#include "Font.h"
+
 #include"TreeApplication.h"
 #include "Input.h"
-#include "Texture.h"
 #include"ImGui.h"
 aie::Font* g_systemFont = nullptr;
 
